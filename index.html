@@ -31,15 +31,16 @@
                 <div class="input-group">
                     <span class="icon">🔒</span>
                     <input type="password" id="password" placeholder="Enter your password">
-                    <span class="icon">👁️</span>
+                    <span class="icon" id="toggle-password" onclick="togglePassword()">👁️</span>
                 </div>
             </div>
-            <button class="button">Sign in</button>
+            <button class="button" id="sign-in-button" onclick="signIn()">Sign in</button>
         </div>
     </div>
     <div class="footer">
         <img src="resources/right_dec.png" alt="Right Decoration">
         <img src="resources/left_dec.png" alt="Left Decoration">
     </div>
+    <script src="client.js"></script>
 </body>
 </html>
