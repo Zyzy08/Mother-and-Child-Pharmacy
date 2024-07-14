@@ -1,0 +1,173 @@
+.logo {
+    position: absolute; 
+    top: 26px; 
+    left: 20px; 
+    width: 36px; 
+    height: 36px; 
+    border-radius: 0px; 
+}
+
+.main-text {
+    position: absolute; 
+    top: 24px; 
+    left: 72px; 
+    width: 164px; 
+    height: 28px; 
+    font-family: Catamaran; /* Body */
+    font-size: 18px; 
+    line-height: 28px; 
+    font-weight: 700; 
+    color: #EB1C24FF; /* secondary-500 */
+}
+
+.sub-text {
+    position: absolute; 
+    top: 52px; 
+    left: 72px; 
+    width: 164px; 
+    height: 20px; 
+    font-family: Catamaran; /* Body */
+    font-size: 12px; 
+    line-height: 20px; 
+    font-weight: 400; 
+    color: #005500FF; /* primary-500 */
+}
+
+.sidebar {
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 258px; 
+    height: 900px; 
+    background: #FFFFFFFF; /* white */
+    border-radius: 0px; 
+    box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f; /* shadow-xs */
+}
+
+/* Sidebar Menu 1 */
+.sidebar-menu {
+    position: absolute; 
+    top: 84px; 
+    left: 0px; 
+    width: 258px; 
+    height: 184px; 
+    display: flex; 
+    flex-direction: column; 
+    font-family: Catamaran; /* Body */
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    opacity: 1; 
+}
+  /* Sidebar Menu 1 - Item */
+  .sidebar-menu .sidebar-menu-item {
+    padding: 16px NaNpx; 
+    display: flex; 
+    align-items: center; 
+    justify-content: left; 
+    color: #565D6DFF; /* neutral-600 */
+    background: #000000FF; /* transparent */
+    border-radius: 0px; 
+    gap: 8px; 
+    cursor: pointer; 
+    white-space: nowrap; 
+}
+  /* Sidebar Menu 1 - Item indent */
+  .sidebar-menu .sidebar-menu-item.indent {
+    padding-left: 29px; 
+}
+  /* Sidebar Menu 1 - Selected item */
+  .sidebar-menu .sidebar-menu-item.selected {
+    position: relative; 
+    font-weight: 700; 
+    color: #005500FF; /* primary-500 */
+    background: #000000FF; /* transparent */
+}
+  /* Sidebar Menu 1 - Selected item */
+  .sidebar-menu .sidebar-menu-item.selected:hover:active {
+    color: #005500FF; /* primary-500 */
+    background: #000000FF; /* transparent */
+}
+  /* Sidebar Menu 1 - Icon */
+  .sidebar-menu svg.icon {
+    width: 24px; 
+    height: 24px; 
+    fill: currentColor; 
+}
+  /* Sidebar Menu 1 - Item with indicator */
+  .sidebar-menu .sidebar-menu-item.selected .indicator {
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 4px; 
+    height: 100%; 
+    background: #005500FF; /* primary-500 */
+    border-radius: 0px; 
+}
+  /* Sidebar menu item 1 */
+  .sidebar-menu .sidebar-menu-item:nth-child(1) {
+    font-family: Catamaran; 
+    font-size: 20px; 
+    line-height: 30px; 
+    font-weight: 700; 
+    color: #005500FF; /* primary-500 */
+}
+  /* Sidebar menu item 2 */
+  .sidebar-menu .sidebar-menu-item:nth-child(2) {
+    font-family: Catamaran; 
+    font-size: 20px; 
+    line-height: 30px; 
+    font-weight: 400; 
+    color: #565D6DFF; /* neutral-600 */
+}
+  /* Sidebar menu item 3 */
+  .sidebar-menu .sidebar-menu-item:nth-child(3) {
+    font-family: Catamaran; 
+    font-size: 20px; 
+    line-height: 30px; 
+    font-weight: 400; 
+    color: #565D6DFF; /* neutral-600 */
+}
+  /* Sidebar menu item 4 */
+  .sidebar-menu .sidebar-menu-item:nth-child(4) {
+    font-family: Catamaran; 
+    font-size: 20px; 
+    line-height: 30px; 
+    font-weight: 400; 
+    color: #565D6DFF; /* neutral-600 */
+}
+
+/* Container 25 */
+.main-content {
+    position: absolute; 
+    top: 0px; 
+    left: 258px; 
+    width: 1182px; 
+    height: 84px; 
+    background: #FFFFFFFF; /* white */
+    border-radius: 0px; 
+    box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f; /* shadow-xs */
+}
+
+.user-name {
+    position: absolute; 
+    top: 27px; 
+    left: 890px; 
+    font-family: Catamaran; /* Body */
+    font-size: 20px; 
+    line-height: 30px; 
+    font-weight: 400; 
+    color: #171A1FFF; /* neutral-900 */
+}
+
+/* Container 27 */
+.chart-container {
+    position: absolute; 
+    top: 346px; 
+    left: 280px; 
+    width: 1132px; 
+    height: 518px; 
+    background: #FFFFFFFF; /* white */
+    border-radius: 2px; /* border-m */
+    box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f; /* shadow-xs */
+}

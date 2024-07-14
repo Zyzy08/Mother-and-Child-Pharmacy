@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dash_styles.css"> <!-- Link to the CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+    <div class="sidebar">
+        <img src="resources/mnc_logo.png" alt="Mother & Child Logo" class="logo">
+        <span class="main-text">Mother & Child</span>
+        <small class="sub-text">Pharmacy & Medical Supplies</small>
+        <ul class="sidebar-menu">
+            <li class="sidebar-menu-item active"><a href="#">Dashboard</a></li>
+            <li class="sidebar-menu-item"><a href="#">Products</a></li>
+            <li class="nav-item"><a href="#">Suppliers</a></li>
+            <li class="nav-item"><a href="#">Transactions</a></li>
+            <li class="nav-item"><a href="#">Inventory</a></li>
+            <li class="nav-item"><a href="#">POS</a></li>
+            <li class="nav-item"><a href="#">Return / Exchange</a></li>
+            <li class="nav-item"><a href="#">Accounts</a></li>
+            <li class="nav-item"><a href="#">Logout</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>Dashboard</h1>
+            <div class="user-info">
+                <span class="user-name">Aileen Castro (Admin)</span>
+                <img src="user-profile.jpg" alt="Aileen Castro">
+            </div>
+        </header>
+        <div class="stats">
+            <div class="stat-item green">
+                <div class="icon"> <!-- Add your icon here --> </div>
+                <div class="number">4</div>
+            </div>
+            <div class="stat-item green-light">
+                <div class="icon"> <!-- Add your icon here --> </div>
+                <div class="number">57</div>
+            </div>
+            <div class="stat-item orange">
+                <div class="icon"> <!-- Add your icon here --> </div>
+                <div class="number">362</div>
+            </div>
+        </div>
+        <div class="chart-container">
+            <div class="chart-header">
+                <select>
+                    <option value="daily">Daily</option>
+                    <!-- Add more options as needed -->
+                </select>
+                <div class="chart-stats">
+                    <span>86k</span>
+                    <span>Today</span>
+                    <span>25%</span>
+                    <span>Increase</span>
+                </div>
+            </div>
+            <div class="chart">
+                <!-- Add your chart here, possibly using a library like Chart.js -->
+            </div>
+            <div class="chart-footer">
+                <span>Thursday</span>
+                <span>Friday</span>
+                <span>Saturday</span>
+                <span>Sunday</span>
+                <span>Monday</span>
+                <span>Tuesday</span>
+                <span>Wednesday</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
