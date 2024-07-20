@@ -11,40 +11,93 @@
 </head>
 <body class="page">
     <div class="sidebar">
+        <div class="sidebar-1"></div>
+        <div class="sidebar-2"></div>
+        <div class="sidebar-3"></div>
         <img src="resources/mnc_logo.png" alt="Mother & Child Logo" class="logo">
         <span class="main-text">Mother & Child</span>
         <small class="sub-text">Pharmacy & Medical Supplies</small>
         <ul class="sidebar-menu">
-            <li class="sidebar-menu-item active"><a href="#">Dashboard</a></li>
-            <li class="sidebar-menu-item"><a href="#">Products</a></li>
-            <li class="nav-item"><a href="#">Suppliers</a></li>
-            <li class="nav-item"><a href="#">Transactions</a></li>
-            <li class="nav-item"><a href="#">Inventory</a></li>
-            <li class="nav-item"><a href="#">POS</a></li>
-            <li class="nav-item"><a href="#">Return / Exchange</a></li>
-            <li class="nav-item"><a href="#">Accounts</a></li>
-            <li class="nav-item"><a href="#">Logout</a></li>
+            <li class="sidebar-menu-item selected">
+                <a href="#">
+                    <img src="resources/dashboard_icon.png" alt="Dashboard Icon" class="sidebar-icon">
+                    Dashboard
+                    <img src="resources/rectangle.png" alt="Indicator" class="indicator">
+                </a>
+            </li>
+            <li class="sidebar-menu-item">
+                <a href="#">
+                    <img src="resources/products.png" alt="Products Icon" class="sidebar-icon">
+                    Products
+                </a>
+            </li>
+            <li class="sidebar-menu-item">
+                <a href="#">
+                    <img src="resources/suppliers.png" alt="Suppliers Icon" class="sidebar-icon">
+                    Suppliers
+                </a>
+            </li>
+            <li class="sidebar-menu-item">
+                <a href="#">
+                    <img src="resources/transactions.png" alt="Transactions Icon" class="sidebar-icon">
+                    Transactions
+                </a>
+            </li>
+            <li class="sidebar-menu-item">
+                <a href="#">
+                    <img src="resources/inventory.png" alt="Inventory Icon" class="sidebar-icon">
+                    Inventory
+                </a>
+            </li>
+            <li class="sidebar-menu-item">
+                <a href="#">
+                    <img src="resources/pos.png" alt="POS Icon" class="sidebar-icon">
+                    POS
+                </a>
+            </li>
+            <li class="sidebar-menu-item">
+                <a href="#">
+                    <img src="resources/return.png" alt="Return / Exchange Icon" class="sidebar-icon">
+                    Return / Exchange
+                </a>
+            </li>
+            <li class="sidebar-menu-item">
+                <a href="#">
+                    <img src="resources/accounts.png" alt="Accounts Icon" class="sidebar-icon">
+                    Accounts
+                </a>
+            </li>
+            <li class="sidebar-menu-item">
+                <a href="#">
+                    <img src="resources/logout.png" alt="Logout Icon" class="sidebar-icon">
+                    Logout
+                </a>
+            </li>
         </ul>
     </div>
+    <div class="dash-info">
+        <h1 class="dash_text">Dashboard</h1>
+        <span class="user-name">Aileen Castro (Admin)</span>
+        <img src="resources/profile_icon.png" alt="Aileen Castro" class="avatar">
+    </div>
     <div class="main-content">
-        <header>
-            <h1>Dashboard</h1>
-            <div class="user-info">
-                <span class="user-name">Aileen Castro (Admin)</span>
-                <img src="user-profile.jpg" alt="Aileen Castro">
-            </div>
-        </header>
         <div class="stats">
-            <div class="stat-item green">
-                <div class="icon"> <!-- Add your icon here --> </div>
+            <div class="customers">
+                <div class="icon">
+                    <img src="resources/customers.png" alt="Customers Icon">
+                </div>
                 <div class="number">4</div>
             </div>
-            <div class="stat-item green-light">
-                <div class="icon"> <!-- Add your icon here --> </div>
+            <div class="receipt">
+                <div class="icon"> 
+                    <img src="resources/receipt.png" alt="Receipt Icon">
+                </div>
                 <div class="number">57</div>
             </div>
-            <div class="stat-item orange">
-                <div class="icon"> <!-- Add your icon here --> </div>
+            <div class="stocks">
+                <div class="icon">  
+                    <img src="resources/stocks.png" alt="Stocks Icon">
+                </div>
                 <div class="number">362</div>
             </div>
         </div>
