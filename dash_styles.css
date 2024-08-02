@@ -272,11 +272,207 @@ body {
 
 .chart-container {
   position: absolute;
-  top: 346px;
+  top: 325px;
   left: 280px;
   width: 1132px;
   height: 518px;
   background: #FFFFFFFF; /* white */
   border-radius: 2px; /* border-m */
   box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f; /* shadow-xs */
+}
+
+.dropdown {
+  position: absolute; 
+  top: 14px; 
+  left: 14px; 
+  opacity: 1; 
+}
+.dropdown input {
+  width: 192px; 
+  height: 36px; 
+  padding-left: 12px; 
+  padding-right: 34px; 
+  font-family: Catamaran; 
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 400; 
+  color: #171A1FFF; /* neutral-900 */
+  background: #FFFFFFFF; /* white */
+  border-radius: 2px; /* border-m */
+  border-width: 1px; 
+  border-color: #BDC1CAFF; /* neutral-400 */
+  outline: none; 
+}
+
+.rate-container {
+  position: absolute; 
+  top: 74px; 
+  left: 315px; 
+  width: 239px; 
+  height: 60px; 
+  background: #EBFFEBFF; /* primary-100 */
+  border-radius: 2px; /* border-m */
+  box-shadow: 0px 6px 13px #ebffeb, 0px 0px 2px #ebffeb; /* shadow-l */
+}
+
+.peso-text {
+  position: absolute; 
+  top: 16px; 
+  left: 32px; 
+  font-family: Catamaran; /* Body */
+  font-size: 20px; 
+  line-height: 30px; 
+  font-weight: 600; 
+  color: #005500FF; /* primary-500 */
+}
+
+.rate-text {
+  position: absolute; 
+  top: 16px; 
+  left: 48px; 
+  font-family: Catamaran; /* Body */
+  font-size: 18px; 
+  line-height: 28px; 
+  font-weight: 700; 
+  color: #171A1FFF; /* neutral-900 */
+}
+
+.tag {
+  position: absolute; 
+  top: 16px; 
+  left: 181px; 
+  width: 47px; 
+  height: 28px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  font-family: Catamaran; /* Body */
+  font-size: 12px; 
+  line-height: 20px; 
+  font-weight: 400; 
+  opacity: 1; 
+}
+
+.perc-container {
+  position: absolute; 
+  top: 74px; 
+  left: 578px; 
+  width: 239px; 
+  height: 60px; 
+  background: #EEFDF3FF; /* success-100 */
+  border-radius: 2px; /* border-m */
+  box-shadow: 0px 6px 13px #eefdf3, 0px 0px 2px #eefdf3; /* shadow-l */
+}
+
+.perc-container .icon {
+  position: absolute; 
+  top: 18px; 
+  left: 16px; 
+  width: 24px; 
+  height: 24px; 
+  fill: #0E642AFF; /* success-750 */
+}
+
+.perc-text {
+  position: absolute; 
+  top: 16px; 
+  left: 48px; 
+  font-family: Catamaran; /* Body */
+  font-size: 18px; 
+  line-height: 28px; 
+  font-weight: 700; 
+  color: #171A1FFF; /* neutral-900 */
+}
+
+.tag {
+  position: absolute; 
+  top: 16px; 
+  left: 146px; 
+  width: 79px; 
+  height: 28px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  font-family: Catamaran; /* Body */
+  font-size: 12px; 
+  line-height: 20px; 
+  font-weight: 400; 
+  opacity: 1; 
+}
+
+.text-1 {
+  position: absolute; 
+  top: 474px; 
+  left: 24px; 
+  font-family: Catamaran; /* Body */
+  font-size: 12px; 
+  line-height: 20px; 
+  font-weight: 400; 
+  color: #6F7787FF; /* neutral-550 */
+}
+
+.text-2 {
+  position: absolute; 
+  top: 474px; 
+  left: 191px; 
+  font-family: Catamaran; /* Body */
+  font-size: 12px; 
+  line-height: 20px; 
+  font-weight: 400; 
+  color: #6F7787FF; /* neutral-550 */
+}
+
+.text-3 {
+  position: absolute; 
+  top: 474px; 
+  left: 360px; 
+  font-family: Catamaran; /* Body */
+  font-size: 12px; 
+  line-height: 20px; 
+  font-weight: 400; 
+  color: #6F7787FF; /* neutral-550 */
+}
+
+.text-4 {
+  position: absolute; 
+  top: 474px; 
+  left: 543px; 
+  font-family: Catamaran; /* Body */
+  font-size: 12px; 
+  line-height: 20px; 
+  font-weight: 400; 
+  color: #6F7787FF; /* neutral-550 */
+}
+
+.text-5 {
+  position: absolute; 
+  top: 474px; 
+  left: 722px; 
+  font-family: Catamaran; /* Body */
+  font-size: 12px; 
+  line-height: 20px; 
+  font-weight: 400; 
+  color: #6F7787FF; /* neutral-550 */
+}
+
+.text-6 {
+  position: absolute; 
+  top: 474px; 
+  left: 901px; 
+  font-family: Catamaran; /* Body */
+  font-size: 12px; 
+  line-height: 20px; 
+  font-weight: 400; 
+  color: #6F7787FF; /* neutral-550 */
+}
+
+.text-7 {
+  position: absolute; 
+  top: 474px; 
+  left: 1038px; 
+  font-family: Catamaran; /* Body */
+  font-size: 12px; 
+  line-height: 20px; 
+  font-weight: 700; 
+  color: #005500FF; /* primary-500 */
 }

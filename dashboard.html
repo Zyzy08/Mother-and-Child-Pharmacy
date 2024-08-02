@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="dash_styles.css"> <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="dash_styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="client.js"></script>
 </head>
 <body class="page">
     <div class="sidebar">
@@ -103,28 +105,35 @@
         </div>
         <div class="chart-container">
             <div class="chart-header">
-                <select>
+                <select class="dropdown">
                     <option value="daily">Daily</option>
-                    <!-- Add more options as needed -->
+                    <option value="monthly">Monthly</option>
+                    <option value="yearly">Yearly</option>
                 </select>
                 <div class="chart-stats">
-                    <span>86k</span>
-                    <span>Today</span>
-                    <span>25%</span>
-                    <span>Increase</span>
+                    <div class="rate-container">
+                        <span class="peso-text">₱</span>
+                        <span class="rate-text">86k</span>
+                        <span class="tag">Today</span>
+                    </div>
+                    <div class="perc-container">
+                        <img src="resources/arrow_up.png" alt="arrow_up" class="icon">
+                        <span class="perc-text">25%</span>
+                        <span class="tag">Increase</span>
+                    </div>
                 </div>
             </div>
             <div class="chart">
-                <!-- Add your chart here, possibly using a library like Chart.js -->
+                <canvas id="myChart"></canvas>
             </div>
             <div class="chart-footer">
-                <span>Thursday</span>
-                <span>Friday</span>
-                <span>Saturday</span>
-                <span>Sunday</span>
-                <span>Monday</span>
-                <span>Tuesday</span>
-                <span>Wednesday</span>
+                <span class="text-1">Thursday</span>
+                <span class="text-2">Friday</span>
+                <span class="text-3">Saturday</span>
+                <span class="text-4">Sunday</span>
+                <span class="text-5">Monday</span>
+                <span class="text-6">Tuesday</span>
+                <span class="text-7">Wednesday</span>
             </div>
         </div>
     </div>
