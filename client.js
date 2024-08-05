@@ -48,3 +48,35 @@ const myChart = new Chart(
     document.getElementById('myChart'),
     config
 );
+
+//sidebar functions
+document.addEventListener("DOMContentLoaded", function() {
+    const sidebarMenuItems = document.querySelectorAll(".sidebar-menu-item");
+
+    sidebarMenuItems.forEach(item => {
+        item.addEventListener("click", function(event) {
+            event.preventDefault();
+            const target = event.currentTarget;
+
+            if (target.innerText.includes("Dashboard")) {
+                window.location.href = "dashboard.html";
+            } else if (target.innerText.includes("Products")) {
+                window.location.href = "products.html";
+            } else if (target.innerText.includes("Suppliers")) {
+                window.location.href = "suppliers.html";
+            } else if (target.innerText.includes("Transactions")) {
+                window.location.href = "transactions.html";
+            } else if (target.innerText.includes("Inventory")) {
+                window.location.href = "inventory.html";
+            } else if (target.innerText.includes("POS")) {
+                window.location.href = "pos.html";
+            } else if (target.innerText.includes("Return / Exchange")) {
+                window.location.href = "return.html";
+            } else if (target.innerText.includes("Accounts")) {
+                window.location.href = "accounts.html";
+            } else {
+                window.location.href = "index.html";
+            }
+        });
+    });
+});
